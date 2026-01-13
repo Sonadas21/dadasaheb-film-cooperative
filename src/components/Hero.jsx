@@ -1,8 +1,10 @@
 import './Hero.css';
 
 export default function Hero() {
+    const baseUrl = import.meta.env.BASE_URL;
+
     const openPdf = () => {
-        window.open('/pdfs/registration_certificate.pdf', '_blank');
+        window.open(`${baseUrl}pdfs/registration_certificate.pdf`, '_blank');
     };
 
     return (
@@ -55,7 +57,7 @@ export default function Hero() {
                         </div>
                         <div className="certificate-preview">
                             <img
-                                src="/certificate.png"
+                                src={`${baseUrl}certificate.png`}
                                 alt="Registration Certificate Preview"
                                 className="pdf-preview-image"
                             />

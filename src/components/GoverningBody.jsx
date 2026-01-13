@@ -10,8 +10,10 @@ const committeePositions = [
 ];
 
 export default function GoverningBody() {
+    const baseUrl = import.meta.env.BASE_URL;
+
     const openMembersPdf = () => {
-        window.open('/pdfs/members_list.pdf', '_blank');
+        window.open(`${baseUrl}pdfs/members_list.pdf`, '_blank');
     };
 
     return (
@@ -84,7 +86,7 @@ export default function GoverningBody() {
 
                             <div className="pdf-card-body">
                                 <img
-                                    src="/member_list.png"
+                                    src={`${baseUrl}member_list.png`}
                                     alt="Members List Preview"
                                     className="pdf-preview-image"
                                 />

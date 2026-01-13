@@ -2,6 +2,7 @@ import './Footer.css';
 
 export default function Footer() {
     const currentYear = new Date().getFullYear();
+    const baseUrl = import.meta.env.BASE_URL;
 
     const quickLinks = [
         { label: 'Home', href: '#hero' },
@@ -30,7 +31,7 @@ export default function Footer() {
                         {/* Logo & About */}
                         <div className="footer-brand">
                             <div className="footer-logo">
-                                <img src="/logo.jpeg" alt="Dadasaheb Film Cooperative Society" />
+                                <img src={`${baseUrl}logo.jpeg`} alt="Dadasaheb Film Cooperative Society" />
                                 <div className="footer-logo-text">
                                     <span className="brand-name">Dadasaheb Cinema</span>
                                     <span className="brand-tagline">Entertainment Cooperative</span>
@@ -68,12 +69,12 @@ export default function Footer() {
                             <h4 className="footer-title">Documents</h4>
                             <ul className="footer-nav">
                                 <li>
-                                    <a href="/pdfs/registration_certificate.pdf" target="_blank" rel="noopener noreferrer">
+                                    <a href={`${baseUrl}pdfs/registration_certificate.pdf`} target="_blank" rel="noopener noreferrer">
                                         Registration Certificate
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/pdfs/members_list.pdf" target="_blank" rel="noopener noreferrer">
+                                    <a href={`${baseUrl}pdfs/members_list.pdf`} target="_blank" rel="noopener noreferrer">
                                         Members List
                                     </a>
                                 </li>
