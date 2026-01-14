@@ -31,10 +31,10 @@ export default function Footer() {
                         {/* Logo & About */}
                         <div className="footer-brand">
                             <div className="footer-logo">
-                                <img src={`${baseUrl}logo.jpeg`} alt="Dadasaheb Film Cooperative Society" />
+                                <img src={`${baseUrl}logo.jpeg`} alt="Dadasaheb Phalke Cinema & Entertainment Multi State Co-operative Society Limited" />
                                 <div className="footer-logo-text">
-                                    <span className="brand-name">Dadasaheb Cinema</span>
-                                    <span className="brand-tagline">Entertainment Cooperative</span>
+                                    <span className="brand-name">Dadasaheb Phalke </span>
+                                    <span className="brand-tagline">Cinema & Entertainment Multi State Co-operative Society Limited</span>
                                 </div>
                             </div>
                             <p className="footer-about">
@@ -101,7 +101,7 @@ export default function Footer() {
                 <div className="container">
                     <div className="footer-bottom-content">
                         <p className="copyright">
-                            © {currentYear} Dadasaheb Cinema and Entertainment Multi State Cooperative Society Limited.
+                            © {currentYear} Dadasaheb Phalke Cinema & Entertainment Multi State Co-operative Society Limited.
                             All Rights Reserved.
                         </p>
                         <div className="footer-ornament">

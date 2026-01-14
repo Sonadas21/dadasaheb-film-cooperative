@@ -17,15 +17,15 @@ export default function Hero() {
 
             <div className="hero-container">
                 <div className="hero-content">
-                    <div className="hero-badge">
-                        <span>Multi State Cooperative Society</span>
-                    </div>
 
                     <h1 className="hero-title">
-                        <span className="title-line">Dadasaheb Cinema</span>
+                        <span className="title-line">Dadasaheb Phalke Cinema</span>
                         <span className="title-ampersand">&</span>
-                        <span className="title-line">Entertainment</span>
+                        <span className="title-line">Entertainment </span>
                     </h1>
+                    <div className="hero-badge">
+                        <span>Multi State Co-operative Society Limited</span>
+                    </div>
 
                     <p className="hero-tagline">
                         Promoting Indian Cinema, Media, Art & Culture Through Cooperative Excellence

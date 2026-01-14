@@ -52,10 +52,12 @@ export default function Header() {
         <header className={`header ${isScrolled ? 'header-scrolled' : ''}`}>
             <div className="header-container">
                 <a href="#hero" className="header-logo" onClick={(e) => { e.preventDefault(); scrollToSection('hero'); }}>
-                    <img src={`${import.meta.env.BASE_URL}logo.jpeg`} alt="Dadasaheb Film Cooperative Society" className="logo-image" />
+                    <img src={`${import.meta.env.BASE_URL}logo.jpeg`} alt="Dadasaheb Phalke Cinema & Entertainment Multi State Co-operative Society
+Limited" className="logo-image" />
                     <div className="logo-text">
-                        <span className="logo-title">Dadasaheb</span>
-                        <span className="logo-subtitle">Film Cooperative Society</span>
+                        <span className="logo-title">Dadasaheb Phalke </span>
+                        <span className="logo-subtitle">Cinema & Entertainment Multi State <br/>Co-operative Society
+Limited</span>
                     </div>
                 </a>
 
