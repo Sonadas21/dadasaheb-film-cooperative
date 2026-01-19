@@ -1,6 +1,6 @@
 # Dadasaheb Film Cooperative Society - Portfolio Website
 
-Official website for **Dadasaheb Cinema and Entertainment Multi State Cooperative Society Limited**.
+Official website for **Dadasaheb phalke Cinema and Entertainment Multi State Cooperative Society Limited**.
 
 🌐 **Live Site:** [https://dadasahebfilmcoop.org](https://dadasahebfilmcoop.org)
 
@@ -10,22 +10,6 @@ Official website for **Dadasaheb Cinema and Entertainment Multi State Cooperativ
 - Vanilla CSS with custom design system
 - GitHub Pages for hosting
 
-## Development
-
-```bash
-# Install dependencies
-npm install
-
-# Start dev server
-npm run dev
-
-# Build for production
-npm run build
-```
-
-## Deployment
-
-This site automatically deploys to GitHub Pages when pushing to the `main` branch.
 
 ## License
 
