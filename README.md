@@ -1,6 +1,6 @@
-# Dadasaheb Film Cooperative Society - Portfolio Website
+# Dadasaheb Phalke Cinema & Entertainment Multi State Co-operative Society Limited - Portfolio Website
 
-Official website for **Dadasaheb phalke Cinema and Entertainment Multi State Cooperative Society Limited**.
+Official website for **Dadasaheb Phalke Cinema & Entertainment Multi State Co-operative Society Limited**.
 
 🌐 **Live Site:** [https://dadasahebfilmcoop.org](https://dadasahebfilmcoop.org)
 
